@@ -1,0 +1,113 @@
+\documentclass[11pt, a4paper]{moderncv}
+\moderncvtheme[blue]{classic}
+\usepackage[utf8]{inputenc}
+%\usepackage{floatflt}
+\usepackage{fancyhdr}
+\usepackage[scale = 0.8]{geometry}
+\geometry{a4paper, left = 0.7cm, right = 0.7cm, top = 0.7cm, bottom = 0.3cm, headheight = 35pt}
+\usepackage{tikz}
+\usepackage{ifthen,xcolor}
+\firstname{Stefano}
+\familyname{Brambilla}
+\title{Engineering Student \protect\\ Politecnico di Milano}
+\address{via Vespucci, 2}{20093 Cologno Monzese (MI)}{Italia}
+\mobile{392 381 5974}
+\email{s.brambilla93@gmail.com}
+\extrainfo{
+	Born: 23/07/1993%\\
+	%https://www.linkedin.com/in/stefano-brambilla-82811135/
+}
+\photo[60pt][0.4pt]{photo_cv.jpg}
+%\usepackage{wrapfig}
+%\AfterPreamble{\hypersetup{pdfstartview = {XYZ null null 1.00}}}
+
+\begin{document}
+	\makecvtitle
+	\vspace{-1.45cm}
+	\section{Education}
+		\cventry{sept.2015 - dec.2018}{Mathematical Engineering MSc}{Politecnico di Milano}{Computational Science, Specialization in: \textit{Mathematical and physical modelling for biomedicine}}{26.5/30}{\textit{Coursework}: Parallel Computing, Advanced Programming for Scientific Calculus, Numerical Analysis of PDE, Biomathematical Modeling, Technology for Regenerative Medicine}
+		\cventry{2012 - 2015}{Mathematical Engineering BSc}{Politecnico di Milano}{}{105/110}{\textit{Coursework}: Inferential Statistics, Probability, Electronics, Analytic and numerical models for PDE} %%thermodynamic
+		\cventry{2007 - 2012}{Diploma Liceo Scientifico PNI}{ISIS Leonardo da Vinci}{Cologno Monzese (MI), Italia}{100/100}{}
+
+	
+	\section{Academy Projects}
+		%% MS thesis
+		\cventry{	dec.2017-currently}{ Analysis of coupled problems on a one-dimensional network, with an application to
+			microcirculation}{}{}{Master Thesis}{}
+			
+		%% ANEDP
+		\cventry{dec.2017-feb.2018}{Dual-based a posteriori error estimators for goal oriented analysis of ADR problems}{Numerical Analysis for Partial Differential Equations Project}{}{Numerical simulations in FreeFem+}{}{}{}
+
+		%% PACS		
+		\cventry{sept.2016-sept.2017}{A C++ solver for coupled 3D/1D transport problem}{Advanced Programming for Scientific Calculus Project}{}{Written with the GETFEM library for finite element methods.}{}{}{}
+
+		%% ACP
+		\cventry{oct.2015-feb.2016}{Biham-Middleton-Levine Traffic Model Simulator}{Algorithm and Parallel Computing Project}{}{Simulator written in C++ and parallelized in Open-Mp and MPI}{}{}{}	
+
+		%% BC thesis		
+		\cventry{\small{may-sep.2015}}{ An hyperbolic model for bacterial movement in porous medium}{}{}{Undergraduate Thesis}{}	
+		
+		%% Economia
+		\cventry{june2013-july2013}{FuturOil: a smart use for waste oil}{Progetto di Economia e Organizzazione Aziendale}{}{Design and
+			realization of the business plan for a startup}{}{}{}
+		
+		%% Stat
+		\cventry{may2013-june2013}{A statistical analysis of the performance of basketball player Kyrie Irving}{ Progetto di Statistica}{}{Analysis with R}{}{}{}
+
+
+
+
+		%%\cvitem{Description}{Descrizione}
+		
+%	\section{Team Projects}
+%		\cventry{DataInizio - DataFine}{Titolo}{}{}{Informazioni supplementari sul team}{Informazioni supplementari sul progetto}
+	
+%	\section{Work Experience}
+%		\cventry{DataInizio - DataFine}{Tipo di lavoro}{Azienda}{Città (PROVINCIA), Nazione}{}{}
+	
+	\section{IT Skills}
+		\cvitem{Advanced}{C/C++, Matlab, FreeFem++}
+		\cvitem{Basic}{Office, R, Open-Mp, MPI, Ansys, Phoenics, SQL, Mathematica}
+	
+	\section{Language Skills}
+		\cvitem{Italian}{Native Speaker}{}%{certificato e valutazione}
+		\cvitem{English}{C1, IELTS 7.0 $\left( 2014\right )$ }
+		
+
+%	\section{Skills}
+%	\cvitem{}{	I am an engineer oriented to IT and Data Analysis; my skills in computer science and my knowledge of mathematical model enable me to solve a wide range of problems.
+%			Anyway, my specialization points towards modeling biological and physiological phaenomena.
+%			Individual study made me indipendent and capable of solving problems by myself; but I also made many group projects, where I learned how to work in a team, both as a leader and as coworkers.
+%		}
+%	\section{Hobby}
+%	\cvitem{Sport}{I usually play basketball and go jogging}
+%	\cvitem{Reading}{I read a lot: novels (thriller, fantasy, science fiction, narrative), comic books and scientific articles.}
+%	\cvitem{Voluntary work}{I contribuite in many events of the local church and currently I am one of the educators of the teenagers group; also, i am a blood donor for AVIS.}	
+%	\cvitem{Tutoring}{I give private lessons of Math and Physics; these years of tutoring improved my clearness in language, thus I can explain in the easiest way complex concepts.}
+%	
+		\section{Open Online Courses}
+		\cventry{}{Polimi Open Knowledge}{ www.pok.polimi.it}{}{}	{\textit{Courses:} Managing conflicts, Managing changes, Finanza 101, BetOnMath for Citizens, Engaging students in active learning, To flip or not to flip - Discover the flipped classroom methodology}
+		
+%		\cventry{}{The University of Tokyo}{www.coursera.org}{Introduction to game theory}{}{}
+%
+%		\cventry{}{Moscow Institute of Physics and Technology}{www.coursera.org}{Building arduino robots and devices}{}{}
+%
+%		\cventry{}{University of Illinois at Urbana-Champaign}{www.coursera.org}{The 3D Printing Revolution}{}{}
+
+	\cventry{}{Coursera}{www.coursera.org}{}{}{\textit{The University of Tokyo:}Introduction to game theory\\
+	\textit{Moscow Institute of Physics and Technology:}Building arduino robots and devices\\
+	\textit{University of Illinois at Urbana-Champaign:}The 3D Printing Revolution}
+	
+		
+		
+		\section{Extracurricular Activities}
+		\cventry{}{Blood donor}{at Cologno Monzese's AVIS, every 3 months}{}{}{}
+		\cventry{}{Educator in local church}{actively helped organizing events and voluntary work}{}{}{} 
+		\cventry{}{Tutoring}{given private Math and Physics lessons}{}{}{}
+		\cvitem{Sport}{\textit{Basketball, Running}}
+		\cvitem{Interests}{\textit{Comicbooks, Board game, Technology}}
+	\begin{center}
+		{\scriptsize Autorizzo il trattamento dei dati personali contenuti nel mio curriculum vit\ae \ in base all'art. 13 del D. Lgs. 196/2003.}
+	\end{center}
+		
+\end{document}
